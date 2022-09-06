@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio de juego</title>
 </head>
-<body>
-<center><button class="btn btn-primary me-md-2" type="button">INICIAR PARTIDA</button></center>
-<h1>Hola<h2>
+<body  background="../imagenes/fondo2.JFIF">
+    <br><img src="../imagenes/siigo3.png" style="width:300px;height:70px;" ></img><H2><blockquote>𝓜𝓪𝓽𝓬𝓱 𝓑𝓪𝓽𝓽𝓵𝓮 </H2>
+    <center><br><br><img src="../imagenes/play.png" width=25%></img>
 </body>
 </html>
