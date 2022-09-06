@@ -8,6 +8,6 @@
 </head>
 <body>
 <center><button class="btn btn-primary me-md-2" type="button">INICIAR PARTIDA</button></center>
-
+<h1>Hola<h2>
 </body>
 </html>
