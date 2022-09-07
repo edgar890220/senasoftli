@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio de juego</title>
 </head>
-<body  background="../imagenes/fondo2.JFIF">
-    <br><img src="../imagenes/siigo3.png" style="width:300px;height:70px;" ></img><H2><blockquote>𝓜𝓪𝓽𝓬𝓱 𝓑𝓪𝓽𝓽𝓵𝓮 </H2>
-    <center><br><br><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%></img></a>
-</body>
+
+<body  background="../imagenes/fondo8.jpg">
+    <br><img src="../imagenes/fondo.png" style="width:250px;height:70px;" ></img>
+    <center><br><br><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%><br><img src="../imagenes/iniciar.png" style="width:200px;height:70px;" ></img></a>
+
+    </body>
 </html>
