@@ -8,6 +8,6 @@ class PartidaController extends Controller
 {
     public function partida(){
 
-        return view('partdia');
+        return view('partida');
     }
 }

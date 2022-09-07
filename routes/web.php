@@ -33,4 +33,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/jugador', [App\Http\Controllers\JugadorController::class, 'create'])->name('create');
 
 
-Route::resource('partida', PartidaController::class);
+Route::get('/partida', [App\Http\Controllers\PartidaController::class, 'partida'])->name('partida');
