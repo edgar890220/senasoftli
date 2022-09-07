@@ -35,7 +35,7 @@
                                 <thead class="thead">
                                     <tr>
                                         <th>No</th>
-                                        
+
 										<th>Nombre</th>
 										<th>Email</th>
 
@@ -46,7 +46,7 @@
                                     @foreach ($jugadors as $jugador)
                                         <tr>
                                             <td>{{ ++$i }}</td>
-                                            
+
 											<td>{{ $jugador->nombre }}</td>
 											<td>{{ $jugador->email }}</td>
 
