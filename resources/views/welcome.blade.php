@@ -8,6 +8,6 @@
 </head>
 <body  background="../imagenes/fondo2.JFIF">
     <br><img src="../imagenes/siigo3.png" style="width:300px;height:70px;" ></img><H2><blockquote>𝓜𝓪𝓽𝓬𝓱 𝓑𝓪𝓽𝓽𝓵𝓮 </H2>
-    <center><br><br><img src="../imagenes/play.png" width=25%></img>
+    <center><br><br><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%></img></a>
 </body>
 </html>
