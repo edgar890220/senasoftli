@@ -9,54 +9,55 @@
 </head>
 <body>
     <div class="container">
-    <button id="btn" class="btn" onclick="displayCard()">Show Cards!</button>
-    <p id="showing">
-    <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
-    <div class="showing">
-    <H2 class="card-title">Varita de Sauco</h2>
+        <button id="btn" class="btn" onclick="displayCard()">Show Cards!</button>
+            <div class="card" id="cardshowing">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
+                <div class="card-body">
+                <h2 class="card-title">Varita de Sauco</h2>
+                 <ul class="list-group list-group-flush">
+                 <li class="list-group-item">Poder: Agua</li>
+                 <li class="list-group-item">Dapibus ac facilisis in</li>
+                 <li class="list-group-item">Vestibulum at eros</li>
+                 </ul>
+                </div>
+            </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
+                <div class="card-body">
+                <H2 class="card-title">Varita de Sauco</h2>
+                 <ul class="list-group list-group-flush">
+                 <li class="list-group-item">Poder: Agua</li>
+                 <li class="list-group-item">Dapibus ac facilisis in</li>
+                 <li class="list-group-item">Vestibulum at eros</li>
+                 </ul>
+                </div>
+            </div>
+            <div class="card"  style="width: 18rem;">
+                <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
+                <div class="card-body">
+                <H2 class="card-title">Varita de Sauco</h2>
+                 <ul class="list-group list-group-flush">
+                 <li class="list-group-item">Poder: Agua</li>
+                 <li class="list-group-item">Dapibus ac facilisis in</li>
+                 <li class="list-group-item">Vestibulum at eros</li>
+                 </ul>
+                </div>
+            </div>
+            <div class="card"  style="width: 18rem;">
+                <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
+                <div class="card-body">
+                <H2 class="card-title">Varita de Sauco</h2>
+                 <ul class="list-group list-group-flush">
+                 <li class="list-group-item">Poder: Agua</li>
+                 <li class="list-group-item">Dapibus ac facilisis in</li>
+                 <li class="list-group-item">Vestibulum at eros</li>
+                 </ul>
+                </div>
+            </div>
+
     </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item">Poder: Agua</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
-<div class="card" id="A1" style="width: 18rem;">
-    <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
-    <div class="showing">
-    <H2 class="card-title">Varita de Sauco</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item">Poder: Agua</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
-<div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
-    <div class="showing">
-    <H2 class="card-title">Varita de Sauco</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item">Poder: Agua</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
-<div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="../imagenes/varitasauco.JFIF" alt="Card image cap">
-    <div class="showing">
-    <H2 class="card-title">Varita de Sauco</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item">Poder: Agua</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
-</p>
-</div>
     <script src="../resources/js/script.js"></script>
 </body>
 </html>

@@ -23,16 +23,11 @@ button {
     margin: 50px;
 }
 
-#showing {
+#cardshowing {
     padding: 12px;
     font-size: 2.1rem;
     min-width: 90px;
     border-radius: 5px;
 }
 
-#showing .card{
-    padding: 12px;
-    font-size: 2.1rem;
-    min-width: 90px;
-    border-radius: 5px;
-}
+
