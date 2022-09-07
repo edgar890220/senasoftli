@@ -29,7 +29,9 @@ button {
     min-width: 90px;
     border-radius: 5px;
 }
-#ima {
+
+#showing .card{
+
     padding: 12px;
     font-size: 2.1rem;
     min-width: 90px;

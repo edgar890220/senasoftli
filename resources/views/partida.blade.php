@@ -12,8 +12,7 @@
         <button onclick="displayCard()">Show Cards!</button>
         <p id="showing"></p>
     </div>
-    <div class="container">
-    <p id="imagen"></p>
+
     </div>
     <script src="../resources/js/script.js"></script>
 </body>
