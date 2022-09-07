@@ -47,7 +47,7 @@ class JugadorController extends Controller
 
         $jugador = Jugador::create($request->all());
 
-        return redirect()->route('jugadors.index')
+        return redirect()->route('partida')
             ->with('success', 'Jugador created successfully.');
     }
 

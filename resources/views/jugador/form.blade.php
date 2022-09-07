@@ -17,7 +17,7 @@
 
     <tr><div class="box-footer mt20">
         <td><center><br><br><button type="submit" class="btn btn-primary" style="WIDTH: 40%; HEIGHT: 32px;  COLOR: white;
-            BACKGROUND-COLOR: black"><font color=yellow><a href="{{route('partida')}}"> CREAR</a></button></center></td>
+            BACKGROUND-COLOR: black"><font color=yellow> CREAR</button></center></td>
     </div></tr>
 
 </table>
