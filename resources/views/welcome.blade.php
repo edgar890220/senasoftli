@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio de juego</title>
 </head>
-<body  background="../imagenes/fondo2.JFIF">
-    <br><img src="../imagenes/siigo3.png" style="width:300px;height:70px;" ></img><H2><blockquote>𝓜𝓪𝓽𝓬𝓱 𝓑𝓪𝓽𝓽𝓵𝓮 </H2>
-    <center><br><br><img src="../imagenes/play.png" width=25%></img>
+<body  background="../imagenes/fondo8.JPG">
+    <br><img src="../imagenes/siigo3.png" style="width:310px;height:70px;" ></img>
+   <br> <font color="#F31D1D"   size=7 >𝓜𝓪𝓽𝓬𝓱 𝓑𝓪𝓽𝓽𝓵𝓮</font>
+    <center><br><img src="../imagenes/play.png" width=25%></img>
 </body>
 </html>
