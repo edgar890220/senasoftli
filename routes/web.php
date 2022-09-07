@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JugadorController;
+use App\Http\Controllers\PartidaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,10 @@ Route::resource('jugadors', JugadorController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/jugador', [App\Http\Controllers\JugadorController::class, 'create'])->name('create');
+
+
+Route::resource('partida', PartidaController::class);
