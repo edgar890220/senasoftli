@@ -10,9 +10,7 @@
 <body>
     <div class="container">
         <button id="btn" class="btn" onclick="displayCard()">Show Cards!</button>
-        <p id="showing">
-
-        </p>
+        <p id="showing"></p>
     </div>
     <script src="../resources/js/script.js"></script>
 </body>

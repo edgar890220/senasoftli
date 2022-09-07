@@ -9,6 +9,3 @@ function displayCard() {
   document.getElementById("imagen").src=imagenes;
 
 }
-
-
-
