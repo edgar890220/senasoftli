@@ -9,7 +9,7 @@
 
 <body  background="../imagenes/fondo8.jpg">
     <br><img src="../imagenes/fondo.png" style="width:250px;height:70px;" ></img>
-    <center><br><br><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%><br><img src="../imagenes/iniciar.png" style="width:200px;height:70px;" ></img></a>
+    <center><br><br><blockquote><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%><br><img src="../imagenes/iniciar.png" style="width:200px;height:70px;" ></img></a>
 
     </body>
 </html>
