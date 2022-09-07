@@ -5,16 +5,17 @@
 @endsection
 
 @section('content')
-    <section class="content container-fluid">
+    <section class="content container-fluid" >
         <div class="row">
             <div class="col-md-12">
 
                 @includeif('partials.errors')
+                <img src="../imagenes/fondo.png" style="width:250px;height:70px;" ></img>
 
-                <div class="card card-default">
-                    <div class="card-header">
-                        <span class="card-title">Create Jugador</span>
-                    </div>
+
+                       <br> <center><img src="../imagenes/registro2.png" style="width:150px;height:50px;" ></img><br><br>
+
+
                     <div class="card-body">
                         <form method="POST" action="{{route('jugadors.store')}}"  role="form" enctype="multipart/form-data">
                             @csrf
