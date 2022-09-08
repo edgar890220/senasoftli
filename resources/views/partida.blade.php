@@ -10,13 +10,22 @@
 </head>
 <body>
     <div class="container">
-        <button id="btn" class="btn" onclick="displayCard()">Show Cards!</button>
+        <button id="btn" class="btn" onclick="displayCard()">BARAJAR</button>
         <p id="showing"></p>
-        <p id="elemento" style="width: 30%", style="size:16px"></p>
-            <p id="numero" style="width: 30%", style="size:16px"></p>
+        <p id="elemento" style="width: 30%", style="size:40px"></p>
+        <p id="numero" style="width: 30%", style="size:40px"></p>
+
         </div>
 
+        <div class="container">
+            <button id="btn" class="btn" onclick="displayCard()">BARAJAR</button>
+            <p id="showing1"></p>
+            <p id="elemento1" style="width: 30%", style="size:40px"></p>
+            <p id="numero1" style="width: 30%", style="size:40px"></p>
 
+            </div>
+
+    </div>
     <script src="../resources/js/script.js"></script>
 </body>
 </html>

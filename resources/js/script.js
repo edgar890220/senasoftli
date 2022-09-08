@@ -50,6 +50,16 @@ function displayCard() {
   document.getElementById("elemento").style.background = '#000000';
   document.getElementById("elemento").innerHTML = showElemento;
   document.getElementById("elemento").style.color = '#FFFFFF';
+  let singleNumero1 = numero[Math.floor(Math.random() * numero.length)];
+  let showNumero1 = `${singleNumero}`;
+  document.getElementById("numero1").innerHTML = showNumero;
+  document.getElementById("numero1").style.background = '#000000	';
+  document.getElementById("numero1").style.color = '#FFFFFF';
+  let singleElemento1 = elemento[Math.floor(Math.random() * elemento.length)];
+  let showElemento1 = `${singleElemento} `;
+  document.getElementById("elemento").style.background = '#000000';
+  document.getElementById("elemento").innerHTML = showElemento;
+  document.getElementById("elemento").style.color = '#FFFFFF';
 
   }
 
