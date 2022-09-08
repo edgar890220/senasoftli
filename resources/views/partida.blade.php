@@ -1,3 +1,10 @@
+<?php
+    $conexion=mysqli_connect('localhost', 'root', '', 'Retosena');
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +16,41 @@
 </head>
 <body>
     <div class="container">
-        <button onclick="displayCard()">Show Cards!</button>
-        <p id="showing"></p>
+        <table width=80% height=30% border=1  bgcolor="#EEEEEE" bordercolor="black" cellspacing=0 >
+        <tr><td><center><button onclick="displayElemento()">BARAJAR</button></center></tr></td>
+        </table>
+        <br><br><br>
+        <div class="baraja">
+        <table width=10% height=10% border=1  bgcolor="#EEEEEE"  cellspacing=0 >
+        <tr><td><center><p id="elemento"></p></td></tr>
+        <tr><td><center><p id="numero"></p></td></tr>
+        <tr><td><center><p id="imagen"></p></td></tr>
     </div>
+</div>
+<table>
+    <tr>
+        <td>nombre</td>
+        <td>correo</td>
+    </tr>
 
-    </div>
+    <?php
+    $sql="SELECT * from jugadors";
+    $result=mysqli_query($conexion,$sql);
+
+    @while ($mostrar=mysqli_fech_array($result)){
+   ?>
+
+    <tr>
+        <td><? php echo $mostrar ['nombre'] ?></td>
+        <td><? php echo $mostrar ['correo'] ?></td>
+    </tr>
+
+    <?php
+        }
+    @endwhile
+    ?>
+
+
     <script src="../resources/js/script.js"></script>
 </body>
 </html>

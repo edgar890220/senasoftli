@@ -7,7 +7,7 @@
     <title>Inicio de juego</title>
 </head>
 
-<body  background="../imagenes/fondo3.jpg">
+<body  background="../imagenes/fondo3.jFIF">
     <br><img src="../imagenes/fondo.png" style="width:250px;height:70px;" ></img>
     <center><br><br><blockquote><a href="{{route('create')}}"><img src="../imagenes/play.png" width=25%><br><img src="../imagenes/iniciar.png" style="width:200px;height:70px;" ></img></a>
 
