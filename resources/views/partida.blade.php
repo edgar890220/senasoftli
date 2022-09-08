@@ -26,23 +26,21 @@
             </div>
           <table class="table col-12 table-responsive">
             <thead>
-                <tr>
+                    <tr>
                     <td>nombre</td>
-
-
-
                     </tr>
             </thead>
             <tbody>
-            <select>
-                @foreach ($jugadors as $jugador)
+                <select name="" id="">
+                    <option value="">seleccione su nombre</option>
+                    @foreach ($jugadors as $jugador)
 
-                    <tr>
-                        <td>{{$jugador->nombre}}</td>
+                        <option value="">{{$jugador->nombre}}</option>
 
-                    </tr>
+
                     @endforeach
                 </select>
+
 
             </tbody>
           </table>
