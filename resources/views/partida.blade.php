@@ -16,6 +16,7 @@
 </head>
 <body>
     <div class="container">
+<<<<<<< HEAD
         <table width=80% height=30% border=1  bgcolor="#EEEEEE" bordercolor="black" cellspacing=0 >
         <tr><td><center><button onclick="displayElemento()">BARAJAR</button></center></tr></td>
         </table>
@@ -51,6 +52,11 @@
     ?>
 
 
+=======
+        <button id="btn" class="btn" onclick="displayCard()">Show Cards!</button>
+        <p id="showing"></p>
+    </div>
+>>>>>>> a7b2d151106a10ddc7d03431ed40dd4d212a0e3e
     <script src="../resources/js/script.js"></script>
 </body>
 </html>
