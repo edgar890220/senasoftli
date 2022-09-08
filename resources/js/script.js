@@ -1,11 +1,12 @@
-let cards = ['♥', '♣', '♦', '♠'];
-let numbers = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
-function displayCard() {
-  let singleCard = cards[Math.floor(Math.random() * cards.length)];
-  let singleNumber = numbers[Math.floor(Math.random() * numbers.length)];
-  let singleImagen=imagenes[Math.floor((Math.random()*imagenes.length))];
-  let showCard = `${singleNumber}   ${singleCard} `;
-  document.getElementById("showing").innerHTML = showCard;
-  document.getElementById("imagen").src=imagenes;
+let cards = ['<img src="../imagenes/varitaMcA1.png"></img>',
+            '<img src="../imagenes/varitaMcA2.png"></img>',
+            '<img src="../imagenes/varitaMcA3.png"></img>',
+            '<img src="../imagenes/varitaMcA4.png"></img>'];
 
+function displayCard() {
+  for(let i=0; i<cards.length;i++){
+  let singleCard = cards[Math.floor(Math.random() * cards.length)];
+  let showCard = `${singleCard}`;
+  document.getElementById("showing").innerHTML = showCard;
+  }
 }
