@@ -17,21 +17,11 @@
 
         </div>
 
-        <div class="container">
 
-            <p id="showing1"></p>
-            <p id="elemento1" style="width: 30%", style="size:40px"></p>
-            <p id="numero1" style="width: 30%", style="size:40px"></p>
-
-            </div>
           <table class="table col-12 table-responsive">
-            <thead>
-                    <tr>
-                    <td>nombre</td>
-                    </tr>
-            </thead>
+
             <tbody>
-                <select name="" id="">
+                <center><select name="" id="">
                     <option value="">seleccione su nombre</option>
                     @foreach ($jugadors as $jugador)
                         <option value="">{{$jugador->nombre}}</option>
