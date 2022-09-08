@@ -24,8 +24,31 @@
             <p id="numero1" style="width: 30%", style="size:40px"></p>
 
             </div>
+          <table class="table col-12 table-responsive">
+            <thead>
+                <tr>
+                    <td>nombre</td>
 
+
+
+                    </tr>
+            </thead>
+            <tbody>
+            <select>
+                @foreach ($jugadors as $jugador)
+
+                    <tr>
+                        <td>{{$jugador->nombre}}</td>
+
+                    </tr>
+                    @endforeach
+                </select>
+
+            </tbody>
+          </table>
     </div>
+
+
     <script src="../resources/js/script.js"></script>
 </body>
 </html>

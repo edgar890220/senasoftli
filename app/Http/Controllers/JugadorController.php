@@ -18,7 +18,7 @@ class JugadorController extends Controller
      */
     public function index()
     {
-        $jugadors = Jugador::paginate();
+
 
         return view('jugador.index', compact('jugadors'))
             ->with('i', (request()->input('page', 1) - 1) * $jugadors->perPage());
