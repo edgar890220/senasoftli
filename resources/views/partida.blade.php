@@ -34,10 +34,7 @@
                 <select name="" id="">
                     <option value="">seleccione su nombre</option>
                     @foreach ($jugadors as $jugador)
-
                         <option value="">{{$jugador->nombre}}</option>
-
-
                     @endforeach
                 </select>
 
